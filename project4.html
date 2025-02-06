@@ -1,0 +1,348 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MySphere</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/sheryjs/dist/Shery.css"
+    />
+
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="stylesheet" media="all" href="css/app.css" />
+    <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+        if (screen.width < 375) {
+          var newScale = screen.width / 375;
+          viewportmeta.content =
+            "width=375, minimum-scale=" +
+            newScale +
+            ", maximum-scale=1.0, user-scalable=no, initial-scale=" +
+            newScale +
+            "";
+        } else {
+          viewportmeta.content =
+            "width=device-width, maximum-scale=1.0, initial-scale=1.0";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header js-header" id="header">
+        <div class="header__center center">
+          <a class="header__logo" href="index.html" 
+            ><img
+              class="header__pic"
+              src="img/logo.png"
+              alt="logo"
+              style="width: 4rem"
+          /></a>
+          <div class="header__social header__social_main">
+           <a class="header__link" href="https://github.com/deepraj21" id="magnet-target">
+                <svg class="icon icon-github">
+                  <use xlink:href="img/sprite.svg#icon-github"></use></svg
+                >Github
+              </a>
+            <a
+                class="header__link"
+                id="magnet-target"
+                href="https://www.linkedin.com/in/deepraj-bera-b64996231"
+              >
+                <svg class="icon icon-linkedin">
+                  <use xlink:href="img/sprite.svg#icon-linkedin"></use></svg
+                >Linkedin
+              </a>
+
+              <a
+                class="header__link"
+                id="magnet-target"
+                href="https://www.instagram.com/its_deep.raj/"
+              >
+                <svg class="icon icon-instagram">
+                  <use xlink:href="img/sprite.svg#icon-instagram"></use></svg
+                >Instagram
+              </a>
+          </div>
+        
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__head">
+          <div class="product__center center">
+            <div class="product__wrap">
+              <div class="product__stage stage" data-aos="animation-scale-y">
+                Featured Work
+              </div>
+              <h1
+                class="product__title title h1"
+                data-aos="animation-scale-y"
+                data-aos-delay="150"
+                id="travelscape"
+              >
+                TravelScape
+              </h1>
+              <div
+                class="product__info h5"
+                data-aos="animation-scale-y"
+                data-aos-delay="300"
+              >
+                Life is short and the world is wide. Better get started with a Plan | Destination.
+              </div>
+            </div>
+            <div
+              class="product__box product__box_show"
+              data-aos="animation-translate-y"
+            >
+              <div class="product__category" id="techstack">Tech stacks</div>
+              <ul class="product__list">
+                <li id="magnet-target">HTML,JS | Tailwind</li>
+                <li id="magnet-target">python | Flask </li>
+                <li id="magnet-target">API: Rapid API</li>
+                <li id="magnet-target">Database: mongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="product__bg"
+          style="background-image: url('img/project-4.jpg')"
+        ></div>
+        <div class="product__body">
+          <div class="product__center center">
+            <div
+              class="product__box product__box_hide"
+              data-aos="animation-scale-y"
+            >
+              <div class="product__category">Tech stacks</div>
+              <ul class="product__list">
+                <li>HTML,JS | Tailwind</li>
+                <li>python | Flask</li>
+                <li>API: Rapid API</li>
+                <li>Database: mongoDB</li>
+              </ul>
+            </div>
+            <div class="product__row">
+              <div class="product__overview h4" data-aos="animation-scale-y" id="magnet-target">
+                Overview
+              </div>
+              <div
+                class="product__content content"
+                data-aos="animation-scale-y"
+                data-aos-delay="200"
+              >
+                <p>
+                "Welcome to TravelScape, your all-in-one destination for seamless travel planning and unforgettable adventures. At
+                TravelScape, we understand that your journey is more than just a trip – it's a collection of experiences waiting to be
+                discovered.
+                </p>
+                
+              </div>
+            </div>
+            <div id="back" style="height:710px;">
+              <img src="img/projects_images/project_4_1.png" alt="" />
+              <img src="img/projects_images/project_4_2.png" alt="" />
+              <img src="img/projects_images/project_4_3.png" alt="" />
+              <img src="img/projects_images/project_4_4.png" alt="" />
+              <img src="img/projects_images/project_4_5.png" alt="" />
+              <img src="img/projects_images/project_4_6.png" alt="" />
+              <img src="img/projects_images/project_4_7.png" alt="" />
+              <img src="img/projects_images/project_4_8.png" alt="" />
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="discover">
+        <div class="discover__center center">
+          <h2 class="discover__title h1" data-aos="animation-scale-y" id="magnet-target">
+            Discover.
+          </h2>
+          <div class="discover__row">
+            <div class="discover__item" data-aos="animation-scale-y">
+              <div class="discover__category h5">Highlights.</div>
+              <ul class="discover__list">
+                <li>Personalized Profile</li>
+                <li>User-Friendly Interface</li>
+                <li>Multilingual Support</li>
+                <li>Traveler Community</li>
+              </ul>
+            </div>
+            <div
+              class="discover__item"
+              data-aos="animation-scale-y"
+              data-aos-delay="200"
+            >
+              <div class="discover__category h5">Features.</div>
+              <ul class="discover__list">
+                <li>Hotel Booking</li>
+                <li>Flight Reservation</li>
+                <li>Curated Tours</li>
+                <li>User Reviews and Ratings</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="discover__circles"></div>
+        <div class="figures">
+          <div class="figures__preview">
+            <img class="figures__pic" src="img/figures-1.png" alt="" />
+          </div>
+          <div class="figures__preview">
+            <img
+              class="figures__pic js-parallax"
+              data-scale="1.6"
+              data-orientation="up"
+              src="img/figures-2.png"
+              alt=""
+            />
+          </div>
+          <div class="figures__preview">
+            <img
+              class="figures__pic js-parallax"
+              data-scale="1.3"
+              data-orientation="up"
+              src="img/figures-3.png"
+              alt=""
+            />
+          </div>
+          <div class="figures__preview">
+            <img class="figures__pic" src="img/figures-4.png" alt="" />
+          </div>
+          <div class="figures__preview">
+            <img
+              class="figures__pic js-parallax"
+              data-scale="2.3"
+              data-orientation="down"
+              src="img/figures-5.png"
+              alt=""
+            />
+          </div>
+          <div class="figures__preview">
+            <img
+              class="figures__pic js-parallax"
+              data-scale="2"
+              data-orientation="up"
+              src="img/figures-6.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="desc">
+        <div class="desc__center center">
+          <div class="desc__head">
+            <div class="desc__title h4" data-aos="animation-scale-y">
+              Approach
+            </div>
+            <div
+              class="desc__content content"
+              data-aos="animation-scale-y"
+              data-aos-delay="200"
+            >
+              <p>
+              <b>Problem Statement:</b><br>
+              
+              Planning a trip can often be overwhelming and time-consuming. Travelers face challenges in finding reliable information,
+              comparing accommodation options, and quickly searching for the best flight deals. There's a need for a comprehensive
+              solution that streamlines the travel planning process, making it efficient and enjoyable for users.<br><br>
+              
+              <b>Solution:</b><br>
+              
+              TravelScape is a web-based travel management platform designed to simplify the travel planning experience. It offers a
+              user-friendly interface that empowers travelers to seamlessly organize their trips, from booking accommodations to
+              finding the perfect flights. The platform aims to enhance the way users explore destinations, providing curated tours,
+              and simplifying the travel logistics.<br><br>
+              
+              <b>Features:</b><br>
+              
+              <b>User Registration and Authentication:</b> Users can create accounts and log in securely to access personalized features.<br>
+              
+              <b>Hotel Booking:</b> Travelers can search for and book accommodations that match their preferences, whether it's a luxury
+              resort or a budget-friendly hostel.<br>
+              
+              <b>Flight Reservation:</b> TravelScape integrates with flight APIs to allow users to search for flights based on their travel
+              dates, destinations, and budgets.<br>
+              
+              <b>Curated Tours:</b> The platform offers a selection of curated tours that provide unique experiences and insights into
+              various destinations.<br>
+              
+              <b>User Reviews and Ratings:</b> Users can leave reviews and ratings for hotels, flights, and tours, helping others make
+              informed decisions.<br>
+              
+              <b>Responsive Design:</b> TravelScape's responsive design ensures an optimal user experience across different devices,
+              including desktops, tablets, and smartphones.<br><br>
+              
+              <b>Future Scope:</b><br>
+              
+              <b>Personalized Profile Dashboard:</b> Integrate a user dashboard where travelers can manage their bookings, view their
+              upcoming trips, and save their favorite destinations.<br>
+              
+              <b>Quick Hotel and Flight Searches Using APIs:</b> Enhance the search experience by integrating APIs that provide real-time
+              hotel and flight availability, allowing users to quickly find and book options.<br>
+              
+              <b>Interactive Destination Guides:</b> Develop comprehensive guides for various destinations, offering insights into local
+              culture, attractions, and hidden gems.<br>
+              
+              <b>Traveler Community and Social Sharing:</b> Implement a social aspect where users can connect, share their travel stories,
+              and exchange tips and recommendations.<br>
+              
+              <b>Multilingual Support:</b> Provide support for multiple languages to cater to a diverse user base from around the world.<br>
+              
+              <b>Travel Budgeting and Expense Tracking:</b> Introduce tools that help users plan their travel budget and track expenses
+              during their trip.<br>
+              
+              <b>Virtual Reality Exploration:</b> Enable users to virtually explore destinations through immersive experiences, enhancing
+              their pre-trip research.<br>
+              </p>
+            </div>
+          </div>
+          <div class="desc__list">
+            <a
+              class="desc__preview"
+              href="https://github.com/deepraj21/TravelScape"
+              data-aos="animation-translate-y"
+              data-aos-delay=""
+              ><img class="desc__pic" src="img/projects_images/project_4_1.png" alt="" />
+              <div class="desc__zoom">
+                <img class="desc__pic" src="img/arrow-up-right.svg" alt="" />
+              </div> </a
+            >
+          </div>
+         
+        </div>
+      </div>
+      <div class="wrapper wrapper_gradient">
+        
+        
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+
+    <script src="/js/script.js"></script>
+
+  </body>
+</html> -->

@@ -1,13 +1,744 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <title>Rishverse✨</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png" />
+  <link rel="manifest" href="img/site.webmanifest" />
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="stylesheet" media="all" href="css/app.css" />
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    #hover-target {
+      font-size: 9vw;
+    }
+  </style>
 </head>
-<body>
-    <div>
-        <h1>Hey Gungun here! :-)</h1>
+
+<body oncontextmenu="return false">
+  <div class="page">
+    <div class="main">
+      <div class="header js-header" id="header">
+        <div class="header__center center">
+          <a class="header__logo" href="index.html"><img class="header__pic" src="img/logo.png" alt="logo"
+              style="width: 4rem" /></a>
+          <div class="header__social header__social_main">
+            <a class="header__link" href="https://github.com/Rishparna02?tab=overview&from=2024-03-01&to=2024-03-28"
+              id="magnet-target">
+              <!-- <svg class="icon icon-github">
+                <use xlink:href="img/sprite.svg#icon-github"></use>
+              </svg> -->
+              <img src="./img/github.png" alt="" style="width: 20px; height: 20px;" class="icon icon-linkedin">
+              Github
+            </a>
+
+            <a class="header__link" href="https://www.linkedin.com/in/rishparna-b-29963b217/" id="magnet-target">
+              <!-- <svg class="icon icon-linkedin">
+                <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+              </svg> -->
+               <img src="./img/linkedin.png" alt="" style="width: 16px; height: 16px;" class="icon icon-linkedin">
+              Linkedin
+            </a>
+
+            <a class="header__link" href="https://medium.com/@rishparnab" id="magnet-target">
+              <!-- <svg class="icon icon-medium">
+  <use xlink:href="img/sprite.svg#icon-medium"></use>
+</svg> -->
+<img src="./img/medium.png" alt="" style="width: 20px; height: 20px;" class="icon icon-linkedin"> Medium
+            </a>
+          </div>
+          <!-- <button class="header__burger js-header-burger"></button> -->
+        </div>
+        <div class="header__wrapper js-header-wrapper"></div>
+      </div>
+      <div class="main__bg" id="main_bg">
+        <img class="main__pic" src="img/bg-main.jpg" alt="" />
+      </div>
+      <div class="main__center center">
+        <div class="main__wrap">
+          <div class="main__stage stage" data-aos="transform">Rishverse✨</div>
+          <h1 class="main__title title h1">
+            <span data-aos="transform" data-aos-delay="150" id="magnet-target">Hello, I'm</span>
+            <div id="hover-target">
+              <span data-aos="transform" data-aos-delay="300">Rishparna.</span>
+            </div>
+            <span data-aos="transform" data-aos-delay="450" style="font-size: 4vw; margin-top: 12px"
+              id="magnet-target">Developer | Designer.</span>
+          </h1>
+          <!-- <div class="cursor"></div> -->
+
+          <a class="scroll js-scroll" href="#details" data-aos="transform">
+            <div class="scroll__icon">
+              <img class="scroll__pic" src="img/scroll.svg" alt="" />
+            </div>
+            <div class="scroll__text">Scroll down</div>
+          </a>
+        </div>
+      </div>
+      <div class="main__view" data-aos>
+        <div class="main__preview">
+          <img class="main__pic" src="img/main-pic-6.png" alt="" />
+        </div>
+        <div class="main__preview">
+          <img class="main__pic js-parallax" data-scale="2.5" data-orientation="up" src="img/main-pic-1.png" alt="" />
+        </div>
+        <div class="main__preview">
+          <img class="main__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/main-pic-2.png" alt="" />
+        </div>
+        <div class="main__preview">
+          <img class="main__pic" src="img/main-pic-3.png" alt="" />
+        </div>
+        <div class="main__preview">
+          <img class="main__pic" src="img/main-pic-4.png" alt="" />
+        </div>
+        <div class="main__preview">
+          <img class="main__pic js-parallax" data-scale="4.5" data-orientation="up" src="img/main-pic-5.png" alt="" />
+        </div>
+        <div class="main__preview">
+          <img class="main__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/main-pic-7.png" alt="" />
+        </div>
+      </div>
+      <div class="main__figures">
+        <div class="main__figure" data-aos="animation-translate-y">
+          <img class="main__pic js-parallax" data-scale="2.2" data-orientation="down" src="img/figure-1.png" alt="" />
+        </div>
+        <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="200">
+          <img class="main__pic js-parallax" data-scale="2.2" data-orientation="up" src="img/figure-2.png" alt="" />
+        </div>
+        <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="400">
+          <img class="main__pic" src="img/figure-3.png" alt="" />
+        </div>
+      </div>
     </div>
+
+    <div class="work" id="about">
+      <div class="work__circles"></div>
+      <div class="work__center center" id="work_center_about">
+        <div class="work__wrap">
+          <div class="work__stage stage stage_pink" data-aos="animation-scale-y">
+            About me
+          </div>
+          <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300">
+            Hello there! I'm Rishparna Bandopadhyay, a dedicated BTech student majoring in Computer Science Engineering
+            at
+            <span style="color: #ecae27">Vellore Institute of Technology</span>. My journey in
+            the world of technology has been marked by a profound passion for
+            learning and a keen interest in both
+            <span style="color: #ecae27">frontend 🌐</span> and
+            <span style="color: #ecae27">backend development 🚀</span>.<br />
+            Beyond coding, I have a deep fascination for
+            <span style="color: #ecae27">AI/ML 🤖</span>, exploring its potential to solve real-world problems through
+            innovative models. My love for
+            <span style="color: #ecae27">UI/UX design 🎨 </span> allows me to create visually compelling and
+            user-friendly
+            interfaces, ensuring seamless interactions.
+            Driven by curiosity and a passion for innovation, I strive to bridge the gap between functionality and
+            aesthetics,
+            constantly learning and evolving to make a meaningful impact in the tech world!
+            <div class="details__btn" data-aos="animation-translate-y" style="margin-top: 3rem">
+              <a class="btn btn_purple" href="data/Rish_Resume.pdf" download><span class="btn__text">Resume</span><svg
+                  class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+
+          <a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
+            <div class="scroll__icon">
+              <img class="scroll__pic" src="img/scroll.svg" alt="" />
+            </div>
+            <div class="scroll__text">Scroll down</div>
+          </a>
+        </div>
+      </div>
+      <div class="work__preview">
+        <img class="work__pic js-parallax" data-scale="2" data-orientation="down" src="img/work-cube.png" alt="" />
+      </div>
+      <div class="work__figures" data-aos id="tech_stack">
+        <div class="work__figure">
+          <img class="work__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/tensorflow.png"
+            style="width: 10rem; margin-left: 34rem; margin-top: 28rem" alt="" />
+        </div>
+        <div class="work__figure">
+          <img class="work__pic js-parallax" data-scale="1.5" data-orientation="up left" src="img/firebase.png"
+            style="width: 10rem; margin-top: 35rem; margin-left: 40rem" alt="" />
+        </div>
+        <div class="work__figure">
+          <img class="work__pic js-parallax" data-scale="1.3" data-orientation="up right" src="img/Sqlite.png"
+            style="width: 10rem; margin-left: 42rem; margin-top: 31rem" alt="" />
+        </div>
+        <div class="work__figure">
+          <img class="work__pic" src="img/python.png" alt="" style="
+                width: 15rem;
+                border-radius: 0.5rem;
+                margin-left: 39rem;
+                margin-top: 20rem;
+              " />
+        </div>
+        <div class="work__figure">
+          <img class="work__pic js-parallax" data-scale="1.1" data-orientation="left" src="img/react.png" alt="" style="
+                width: 10rem;
+                justify-content: center;
+                align-items: center;
+                margin-left: 40rem;
+                margin-top: 8rem;
+                margin-left: 55rem;
+              " />
+        </div>
+        <div class="work__figure">
+          <img class="work__pic js-parallax" data-scale="1.2" data-orientation="right" src="img/node.png"
+            style="width: 10rem; margin-left: 42rem; margin-top: 22rem" alt="" />
+        </div>
+        <div class="work__figure">
+          <img class="work__pic js-parallax" data-scale="1.2" data-orientation="down" src="img/tailwind.png"
+            style="width: 10rem; margin-top: 40rem; margin-left: 28rem" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="details" id="details">
+      <div class="details__center center">
+        <div class="details__head" data-aos="animation-scale-y">
+          <div class="details__stage stage">What I Do</div>
+          <h3 class="details__info h3" id="magnet-target">
+            Blending creativity and technology to craft meaningful digital experiences.
+          </h3>
+        </div>
+        <h2 class="details__title" data-aos="animation-scale-y" id="hover-image">
+          Design. Develop. <br /> Innovate.
+        </h2>
+        <div class="details__btn" data-aos="animation-translate-y">
+          <a class="btn btn_purple" href="#contact"><span class="btn__text">Contact Me</span><svg
+              class="icon icon-arrow-right">
+              <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+            </svg></a>
+        </div>
+        <div class="details__container">
+          <div class="details__slider owl-carousel js-slider-details">
+            <div class="details__item">
+              <div class="details__preview details__preview_cursor" data-aos="animation-scale">
+                <div class="details__img">
+                  <img class="details__pic" src="https://cdn3d.iconscout.com/3d/premium/thumb/ui-4623941-3851485.png"
+                    alt="" />
+                </div>
+              </div>
+              <h5 class="details__category h5" data-aos="animation-scale-y">
+                User Interface
+              </h5>
+              <div class="details__text" data-aos="animation-scale-y">
+                Crafting intuitive interfaces that elevate user experiences, where design meets functionality seamlessly
+                for optimal
+                engagement.
+              </div>
+              <div class="details__btn" data-aos="animation-scale-y">
+                <a class="btn btn_dark" href="#contact">Find out more</a>
+              </div>
+            </div>
+
+            <div class="details__item">
+              <div class="details__preview details__preview_hand" data-aos="animation-scale" data-aos-delay="150">
+                <div class="details__img">
+                  <img class="details__pic"
+                    src="https://cdn3d.iconscout.com/3d/premium/thumb/machine-learning-9559738-7718447.png" alt="" />
+                </div>
+              </div>
+              <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="150">
+                AI | ML
+              </h5>
+              <div class="details__text" data-aos="animation-scale-y" data-aos-delay="150">
+                Empowering your business with cutting-edge AI/ML solutions – where innovation meets intelligence for
+                transformative
+                success.
+              </div>
+              <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="150">
+                <a class="btn btn_dark" href="#contact">Find out more</a>
+              </div>
+            </div>
+            <div class="details__item">
+              <div class="details__preview details__preview_cursor" data-aos="animation-scale">
+                <div class="details__img">
+                  <img class="details__pic"
+                    src="https://cdn3d.iconscout.com/3d/premium/thumb/database-8858003-7232734.png?f=webp" alt="" />
+                </div>
+              </div>
+              <h5 class="details__category h5" data-aos="animation-scale-y">
+                Database
+              </h5>
+              <div class="details__text" data-aos="animation-scale-y">
+                Building robust databases that transform data into actionable insights, ensuring efficiency, security,
+                and seamless
+                scalability for success.
+              </div>
+              <div class="details__btn" data-aos="animation-scale-y">
+                <a class="btn btn_dark" href="#contact">Find out more</a>
+              </div>
+            </div>
+            <div class="details__item">
+              <div class="details__preview details__preview_color" data-aos="animation-scale" data-aos-delay="300">
+                <div class="details__img">
+                  <img class="details__pic"
+                    src="https://cdn3d.iconscout.com/3d/premium/thumb/website-8590958-6785424.png?f=webp" alt="" />
+                </div>
+              </div>
+              <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="300">
+                Backend
+              </h5>
+              <div class="details__text" data-aos="animation-scale-y" data-aos-delay="300">
+                Architecting powerful backends that fuel seamless functionality, scalability, and performance - the
+                backbone of digital
+                excellence.
+              </div>
+              <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300">
+                <a class="btn btn_dark" href="#contact">Find out more</a>
+              </div>
+            </div>
+            <div class="details__item">
+              <div class="details__preview details__preview_cursor">
+                <div class="details__img">
+                  <img class="details__pic"
+                    src="https://cdni.iconscout.com/illustration/premium/thumb/javascript-developer-5021659-4182858.png"
+                    alt="" />
+                </div>
+              </div>
+              <h5 class="details__category h5">Full Stack</h5>
+              <div class="details__text">
+                From front-end elegance to back-end robustness, we engineer full-stack solutions, harmonizing technology
+                layers for
+                unparalleled performance and user satisfaction.
+              </div>
+              <a class="details__btn btn btn_dark" href="#contact">Find out more</a>
+            </div>
+            <div class="details__item">
+              <div class="details__preview details__preview_hand">
+                <div class="details__img">
+                  <img class="details__pic"
+                    src="https://cdn3d.iconscout.com/3d/premium/thumb/front-end-9662918-7825708.png?f=webp" alt="" />
+                </div>
+              </div>
+              <h5 class="details__category h5">Frontend</h5>
+              <div class="details__text">
+                Crafting visually stunning and seamlessly responsive frontends that captivate users, ensuring a
+                delightful digital
+                journey every interaction.
+              </div>
+              <a class="details__btn btn btn_dark" href="#contact">Find out more</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="details__figures">
+        <div class="details__figure">
+          <img class="details__pic js-parallax" data-scale="2" data-orientation="down" src="img/figure-1.png" alt="" />
+        </div>
+        <div class="details__figure">
+          <img class="details__pic js-parallax" data-scale="2" data-orientation="up" src="img/figure-2.png" alt="" />
+        </div>
+        <div class="details__figure">
+          <img class="details__pic js-parallax" data-scale="1.2" data-orientation="up" src="img/figure-3.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="work desktop_hide" style="background: none; margin-top: -5rem">
+      <div id="image_slide" style="height: 900px">
+        <img class="work__pic" src="img/slide_1.jpg" alt="" />
+        <img class="work__pic" src="img/slide_2.jpg" alt="" />
+      </div>
+      <!-- <div class="work__circles"></div> -->
+      <div class="work__center center" style="margin-top: -47rem">
+        <div class="work__wrap">
+          <div class="work__stage stage stage_pink" data-aos="animation-scale-y">
+            Who I Work With
+          </div>
+          <h2 class="work__title title h1" data-aos="animation-scale-y" data-aos-delay="150">
+            Art Direction Designers Developers.
+          </h2>
+          <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300" id="magnet-target">
+            I explore and develop innovative, delightful concepts while guiding visual designers.
+          </div>
+          <a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
+            <div class="scroll__icon">
+              <img class="scroll__pic" src="img/scroll.svg" alt="" />
+            </div>
+            <div class="scroll__text">Scroll down</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="work__figures" data-aos></div>
+    </div>
+    <div class="wrapper wrapper_gradient" id="projects">
+      <div class="cases cases_main" id="cases">
+        <div class="cases__center center">
+          <div class="cases__stage stage" data-aos="animation-scale-y" id="magnet-target">
+            Portfolio
+          </div>
+          <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="150">
+            Some of My <br />Projects.
+          </h2>
+          <div class="cases__nav" data-aos="animation-scale-y" data-aos-delay="300">
+            <a class="cases__link active" href="#">Featured</a>
+          </div>
+          <div class="cases__list js-owl" data-items-mobile-portrait="1" data-items-mobile-album="1" data-autoheight>
+            <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="project1.html">
+              <div class="cases__preview">
+                <img class="cases__pic" src="img/project-1.jpg" alt="" />
+                <div class="cases__box">Explore</div>
+              </div>
+              <div class="cases__body">
+                <h4 class="cases__info h4">Shoppistae</h4>
+                <div class="cases__text">
+                  Shoppistae is a modern e-commerce web application built using React,
+                  designed to provide a seamless and enjoyable shopping experience.
+                  It features a user-friendly interface, smooth navigation, secure authentication,
+                  and a robust cart and checkout system. With real-time stock management through
+                  an admin panel, the platform ensures efficiency for both users and sellers.
+                  Built with React, Express.js, and MongoDB, Shoppistae aims to
+                  make online shopping easy, accessible, and engaging for everyone.
+                </div>
+              </div>
+            </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="project2.html">
+              <div class="cases__preview">
+                <img class="cases__pic" src="img/project-2.jpg" alt="" />
+                <div class="cases__box">Explore</div>
+              </div>
+              <div class="cases__body">
+                <h4 class="cases__info h4">Gemini Chat PDF</h4>
+                <div class="cases__text">
+                  Gemini Chat PDF is a Streamlit-based application that allows users
+                  to upload and process multiple PDFs while interacting with the content
+                  through a conversational chat interface. Powered by Google's Gemini-pro,
+                  the system enables users to ask questions and receive intelligent responses,
+                  making document analysis more efficient and interactive.
+                </div>
+              </div>
+            </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="project3.html">
+              <div class="cases__preview">
+                <img class="cases__pic" src="img/project-3.jpg" alt="" />
+                <div class="cases__box">Explore</div>
+              </div>
+              <div class="cases__body">
+                <h4 class="cases__info h4">Stock Sync</h4>
+                <div class="cases__text">
+                  StockSync is a stock market application built using Flask,
+                  a Python-based web framework, designed to help users manage
+                  their stock portfolio and make informed decisions. The application
+                  offers functionalities like user registration, login, adding stocks
+                  to a wishlist, predicting stock prices using machine learning,
+                  and fetching real-time stock data. It utilizes MongoDB for efficient data storage,
+                  yfinance for retrieving live stock information, and scikit-learn for
+                  implementing linear regression models for price prediction.
+                  This project aims to provide users with insightful stock predictions and a seamless management
+                  experience.
+                </div>
+              </div>
+            <!--</a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="project4.html">
+              <div class="cases__preview">
+                <img class="cases__pic" src="img/project-4.jpg" alt="" />
+                <div class="cases__box">Explore</div>
+              </div>
+
+            </a> -->
+
+          </div><br>
+          <div class="details__btn" data-aos="animation-translate-y" style="margin-top: 8rem; margin:auto">
+            <a class="btn btn_purple" href="https://github.com/Rishparna02?tab=repositories"><span class="btn__text">Explore
+                All</span><svg class="icon icon-arrow-right">
+                <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+              </svg></a>
+          </div>
+        </div>
+        <div class="cases__figures">
+          <div class="cases__figure">
+            <img class="cases__pic js-parallax" data-scale="2" data-orientation="down" src="img/figure-2.png" alt="" />
+          </div>
+          <div class="cases__figure">
+            <img class="cases__pic js-parallax" data-scale="1.8" data-orientation="down" src="img/figure-3.png"
+              alt="" />
+          </div>
+        </div>
+
+      </div>
+      <!-- <div class="review">
+          <div class="review__center center">
+            <div class="review__stage stage" data-aos="animation-scale-y" id="magnet-target">
+              What People Say
+            </div>
+            <h2
+              class="review__title title h1"
+              data-aos="animation-scale-y"
+              data-aos-delay="200"
+            >
+              Trusted by <br />Clients.
+            </h2>
+            <div
+              class="review__container"
+              data-aos="animation-translate-y"
+              data-aos-delay="400"
+            >
+              <div class="review__slider owl-carousel js-slider-review">
+                <div class="review__item">
+                  <div class="review__text">
+                    “ I'm thrilled with the website created by Deepraj! His attention to detail and creativity resulted in a stunning animated
+                    site that exceeded my expectations.”
+                  </div>
+                  <div class="review__author">
+                    <div class="review__ava">
+                      <img class="review__pic" src="https://media.licdn.com/dms/image/C5603AQE5Vki7AVnFNQ/profile-displayphoto-shrink_100_100/0/1650956680474?e=1710374400&v=beta&t=BseeC_jyISReLQQvqLRWo4HaHg0X9fktODc7IuIH_iw" alt="" />
+                    </div>
+                    <div class="review__details">
+                      <div class="review__man h5">Aman Chaurasia</div>
+                      <div class="review__company"><a href="https://www.linkedin.com/in/chaurasia-aman/"><svg class="icon icon-linkedin">
+                        <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                      </svg> LinkedIn</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">
+                    “Deepraj delivered an exceptional ML project. His ability to turn our needs into such a solution was great.
+                    Highly recommend for outstanding work in AI/ML development.”
+                  </div>
+                  <div class="review__author">
+                    <div class="review__ava">
+                      <img class="review__pic" src="https://media.licdn.com/dms/image/D4E03AQFUdpvEKq0TEQ/profile-displayphoto-shrink_200_200/0/1649584001685?e=1710979200&v=beta&t=_CKHVkNo7TucwzhO6J6zd3VOpfWf0TZybGdS_1DKhxI" alt="" />
+                    </div>
+                    <div class="review__details">
+                      <div class="review__man h5">Harshit Mania</div>
+                      <div class="review__company"><a href="https://www.linkedin.com/in/harshit-mania-720bbb236/"><svg class="icon icon-linkedin">
+                        <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                      </svg> LinkedIn</a></div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="review__bg">
+            <div class="review__preview">
+              <img
+                class="review__pic js-parallax"
+                data-scale="1.5"
+                data-orientation="down"
+                src="img/review-cube.png"
+                alt=""
+              />
+            </div>
+            <div class="review__preview">
+              <img class="review__pic" src="img/review-cube.png" alt="" />
+            </div>
+          </div>
+        </div> -->
+      <div class="h5" style="margin-top: 15px; margin-bottom:10px" id="admin_message">
+        <center>
+          <p>Why Still on Phone?</p>
+          <p style="font-size: 12px;">Go to Desktop for experiencing the amazing Animations.</p>
+        </center>
+      </div>
+
+      <div class="wrapper wrapper_dark" id="contact" style="margin-top: 60px;">
+        <div class="contacts">
+          <div class="contacts__center center">
+            <div class="contacts__container">
+              <div class="contacts__wrap">
+                <div class="contacts__stage stage" data-aos="animation-scale-y">
+                  Say hello 👋
+                </div>
+                <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200" id="magnet-target">
+                  Let’s Work <br />Together.
+                </h2>
+                <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">
+                  I’d love to meet up with you to discuss your venture, and
+                  potential collaborations.
+                </div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__details" data-aos="animation-translate-y">
+                  <a class="contacts__line" href="mailto:deepraj21.bera@gmail.com">
+                    <div class="contacts__icon">
+                      <svg class="icon icon-email">
+                        <use xlink:href="img/sprite.svg#icon-email"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts__text" id="magnet-target">rishparnab@gmail.com</div>
+                  </a>
+                  <div class="contacts__line">
+                    <div class="contacts__icon">
+                      <svg class="icon icon-place">
+                        <use xlink:href="img/sprite.svg#icon-place"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts__text" id="magnet-target">
+                      <p>West Bengal</p>
+                      <p>India</p>
+                    </div>
+                  </div>
+                  <a class="contacts__line" href="tel:+917044135575">
+                    <div class="contacts__icon">
+                      <svg class="icon icon-phone">
+                        <use xlink:href="img/sprite.svg#icon-phone"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts__text" id="magnet-target">+91 81017 38590</div>
+                  </a>
+                </div>
+                <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200" name="contact"
+                  method="POST" netlify>
+                  <div class="contacts__field field">
+                    <div class="field__wrap">
+                      <input class="field__input" type="text" name="name" placeholder="Name" />
+                      <div class="field__icon">
+                        <svg class="icon icon-profile">
+                          <use xlink:href="img/sprite.svg#icon-profile"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contacts__field field">
+                    <div class="field__wrap">
+                      <input class="field__input" type="email" name="email" placeholder="Email" />
+                      <div class="field__icon">
+                        <svg class="icon icon-send">
+                          <use xlink:href="img/sprite.svg#icon-send"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contacts__field field field_textarea">
+                    <div class="field__wrap">
+                      <textarea class="field__textarea" name="message" placeholder="Message"></textarea>
+                      <div class="field__icon">
+                        <svg class="icon icon-message">
+                          <use xlink:href="img/sprite.svg#icon-message"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contacts__btn">
+                    <button class="btn btn_purple" type="submit">
+                      <span class="btn__text">Let’s Talk</span><svg class="icon icon-arrow-right">
+                        <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="contacts__category h5">Let’s connect</div>
+              <div class="contacts__social">
+                <div class="contacts__box" data-aos="animation-translate-y">
+                  <a class="contacts__link" href="https://github.com/Rishparna02"><svg class="icon icon-github">
+                      <use xlink:href="img/sprite.svg#icon-github"></use>
+                    </svg>
+                    <div class="contacts__text">Github</div>
+                  </a>
+                </div>
+                <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="150">
+                  <a class="contacts__link" href="https://www.linkedin.com/in/rishparna-b-29963b217/"><svg
+                      class="icon icon-linkedin">
+                      <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                    <div class="contacts__text">Linkedin</div>
+                  </a>
+                </div>
+                <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="450">
+                  <a class="contacts__link" href="https://medium.com/@rishparnab"><svg class="icon icon-codepen">
+                      <use xlink:href="img/sprite.svg#icon-codepen"></use>
+                    </svg>
+                    <div class="contacts__text">Medium</div>
+                  </a>
+                </div>
+              </div>
+              <div class="figures">
+                <div class="figures__preview">
+                  <img class="figures__pic" src="img/figures-1.png" alt="" />
+                </div>
+                <div class="figures__preview">
+                  <img class="figures__pic js-parallax" data-scale="1.6" data-orientation="up" src="img/figures-2.png"
+                    alt="" />
+                </div>
+                <div class="figures__preview">
+                  <img class="figures__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/figures-3.png"
+                    alt="" />
+                </div>
+                <div class="figures__preview">
+                  <img class="figures__pic" src="img/figures-4.png" alt="" />
+                </div>
+                <div class="figures__preview">
+                  <img class="figures__pic js-parallax" data-scale="2.3" data-orientation="down" src="img/figures-5.png"
+                    alt="" />
+                </div>
+                <div class="figures__preview">
+                  <img class="figures__pic js-parallax" data-scale="2" data-orientation="up" src="img/figures-6.png"
+                    alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer__center center">
+            <div class="footer__body">
+              <a class="footer__logo" href="index.html" id="magnet-target"><img class="footer__pic" src="img/logo.png"
+                  alt="" style="width: 6rem" /></a>
+              <div class="footer__wrap">
+                <div class="footer__title h1">
+                  You only have one chance to make a first impression.
+                </div>
+                <div class="footer__info h4" id="magnet-target">
+                  Let’s make it an amazing one.
+                </div>
+              </div>
+              <div class="footer__menu">
+                <a class="footer__link" href="#about">About Me</a><a class="footer__link" href="#contact">Contact</a><a
+                  class="footer__link" href="https://www.linkedin.com/in/rishparna-b-29963b217/">Linkedin</a><a
+                  class="footer__link" href="https://github.com/Rishparna02">Github</a>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <div class="footer__copyright" id="magnet-target">© 2024, Rishparna.</div>
+              <a class="footer__scroll js-scroll" href="#header" id="magnet-target">Back to top</a>
+            </div>
+          </div>
+          <div class="footer__bg">
+            <div class="footer__preview">
+              <img class="footer__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/footer-cube-1.png"
+                alt="" />
+            </div>
+            <div class="footer__preview">
+              <img class="footer__pic js-parallax" data-scale="1.8" data-orientation="up" src="img/footer-cube-1.png"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+  <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+
 </body>
+
 </html>
