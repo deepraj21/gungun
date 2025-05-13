@@ -102,7 +102,7 @@ function loadScript() {
         });
 
         Shery.hoverWithMediaCircle("#hover-target" /* Element to target.*/, {
-            images: ["img/admin1.jpg"],
+            images: ["img/admin1.jpeg"],
         });
 
         Shery.makeMagnet("#magnet-target" /* Element to target.*/, {
